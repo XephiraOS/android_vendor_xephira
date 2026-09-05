@@ -18,7 +18,8 @@ PRODUCT_PACKAGES += \
     AvatarPicker \
     Backgrounds \
     Glimpse \
-    LatinIME
+    LatinIME \
+    XephiraLab
 
 ifeq ($(PRODUCT_TYPE), go)
 PRODUCT_PACKAGES += \
