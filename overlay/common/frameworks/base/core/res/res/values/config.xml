@@ -178,4 +178,15 @@
 
     <!-- Whether glanceable hub is enabled by default. -->
     <bool name="config_glanceableHubEnabledByDefault">true</bool>
+
+    <!-- XephiraOS Liquid Glass Corner Curvature (Continuous Superellipse) -->
+    <dimen name="config_rounded_corner_radius">32dp</dimen>
+
+    <!-- Continuous Squircle Adaptive Icon Mask Shape -->
+    <string name="config_icon_mask" translatable="false">"M 50,0 C 20,0 0,20 0,50 C 0,80 20,100 50,100 C 80,100 100,80 100,50 C 100,20 80,0 50,0 Z"</string>
+
+    <!-- 120Hz Fluid Damped Harmonic Animation Timers (matching LiquidSpringInterpolator) -->
+    <integer name="config_shortAnimTime">140</integer>
+    <integer name="config_mediumAnimTime">220</integer>
+    <integer name="config_longAnimTime">320</integer>
 </resources>
