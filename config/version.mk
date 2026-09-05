@@ -37,8 +37,20 @@ LINEAGE_VERSION := $(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR)-$(LINEAGE_V
 # Display version
 LINEAGE_DISPLAY_VERSION := $(PRODUCT_VERSION_MAJOR)-$(LINEAGE_VERSION_SUFFIX)
 
-# LineageOS version properties
+# XephiraOS Identity Properties
+PRODUCT_BRAND := XephiraOS
+PRODUCT_MANUFACTURER := Xephira
+
+XEPHIRA_VERSION_CODENAME := Aether
+XEPHIRA_VERSION_NUMBER := 1.0
+
+# XephiraOS & LineageOS version properties
 PRODUCT_PRODUCT_PROPERTIES += \
+    ro.xephira.version=1.0-Aether \
+    ro.xephira.display.version=XephiraOS 1.0 (Android 16) \
+    ro.xephira.codename=$(XEPHIRA_VERSION_CODENAME) \
+    ro.xephira.build.version=$(XEPHIRA_VERSION_NUMBER) \
+    ro.xephira.releasetype=$(LINEAGE_BUILDTYPE) \
     ro.lineage.version=$(LINEAGE_VERSION) \
     ro.lineage.display.version=$(LINEAGE_DISPLAY_VERSION) \
     ro.lineage.build.version=$(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR) \
