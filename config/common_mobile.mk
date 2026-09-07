@@ -29,12 +29,10 @@ PRODUCT_DEXPREOPT_SPEED_APPS += \
     Launcher3QuickStepGo
 else
 PRODUCT_PACKAGES += \
-    XephiraLauncher \
-    Launcher3QuickStep
+    XephiraLauncher
 
 PRODUCT_DEXPREOPT_SPEED_APPS += \
-    XephiraLauncher \
-    Launcher3QuickStep
+    XephiraLauncher
 endif
 
 PRODUCT_PACKAGES += \
