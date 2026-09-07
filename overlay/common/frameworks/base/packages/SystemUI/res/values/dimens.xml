@@ -18,4 +18,9 @@
 <resources>
     <!-- Remove power menu shadow -->
     <dimen name="global_actions_translate">0dp</dimen>
+
+    <!-- XephiraOS OxygenOS 17 & iOS 18 Spatial Glass Squircles -->
+    <dimen name="qs_corner_radius">28dp</dimen>
+    <dimen name="notification_corner_radius">28dp</dimen>
+    <dimen name="rounded_slider_corner_radius">24dp</dimen>
 </resources>
