@@ -11,10 +11,10 @@ PRODUCT_SOURCE_ROOT_DIRS += -prebuilts/misc/protobuf_vendorcompat
 PRODUCT_BRAND ?= XephiraOS
 
 # XephiraOS Liquid Glass Hardware Blur & Motion Properties
-PRODUCT_SYSTEM_PROPERTIES += \
-    ro.surface_flinger.supports_background_blur=1 \
-    persist.sys.sf.disable_blurs=0 \
-    persist.wm.debug.predictive_back=1
+#PRODUCT_SYSTEM_PROPERTIES += \
+#    ro.surface_flinger.supports_background_blur=1 \
+#    persist.sys.sf.disable_blurs=0 \
+#    persist.wm.debug.predictive_back=1
 
 ifeq ($(PRODUCT_GMS_CLIENTID_BASE),)
 PRODUCT_PRODUCT_PROPERTIES += \
